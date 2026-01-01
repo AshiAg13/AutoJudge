@@ -58,10 +58,10 @@ Models Used
 
 ## Evaluation Metrics
 
-    Classification
+### Classification
 - Accuracy (computed during training)-0.48
 
-    Regression
+### Regression
 - Mean Absolute Error (MAE)-1.76
 - Root Mean Squared Error (RMSE)-2.05
 
