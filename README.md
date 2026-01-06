@@ -10,7 +10,7 @@ The system is deployed as an interactive Streamlit web application and runs comp
 ---
 
 Project Overview
-Difficulty estimation of programming problems is a subjective and non-trivial task. AutoJudge aims to automate this process by analyzing problem statements using natural language processing and machine learning techniques.
+Difficulty estimation of programming problems is a subjective and manual task. AutoJudge aims to automate this process by analyzing problem statements using natural language processing and machine learning techniques.
 
 The project combines text-based features (TF-IDF) with handcrafted numerical features to estimate difficulty levels in a consistent and explainable manner.
 
@@ -58,12 +58,15 @@ Models Used
 
 ## Evaluation Metrics
 
-  Classification
-- Accuracy (computed during training)-0.48
+To assess the performance of the model, both classification and regression evaluation metrics were used. These metrics measure how close the predicted difficulty scores are to the ground-truth labels.
 
-  Regression
-- Mean Absolute Error (MAE)-1.67
-- Root Mean Squared Error (RMSE)-2.02
+### Classification Metric
+Accuracy: 0.48
+
+### Regression Metrics
+Mean Absolute Error (MAE): 1.67
+
+Root Mean Squared Error (RMSE): 2.02
 
 These metrics are used to evaluate how close the predicted difficulty score is to the ground-truth score.
 
@@ -105,6 +108,8 @@ Link to a 2–3 minute demo video:  <https://drive.google.com/file/d/1_ljvngJqLL
 ---
 
 ASHI AGRAWAL
+
 24118012
+
 METALLURGICAL AND MATERIALS ENGINEERING
 
