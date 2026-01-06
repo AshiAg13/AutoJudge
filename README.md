@@ -17,7 +17,7 @@ The project combines text-based features (TF-IDF) with handcrafted numerical fea
 ---
 
 Dataset Used
-- Source: Custom dataset (`dataset.csv`)
+- Source: Downloaded dataset (`dataset.csv`)
 - Contents:
   - Problem Title
   - Problem Description
@@ -58,12 +58,12 @@ Models Used
 
 ## Evaluation Metrics
 
-### Classification
+    Classification
 - Accuracy (computed during training)-0.48
 
-### Regression
-- Mean Absolute Error (MAE)-1.76
-- Root Mean Squared Error (RMSE)-2.05
+    Regression
+- Mean Absolute Error (MAE)-1.67
+- Root Mean Squared Error (RMSE)-2.02
 
 These metrics are used to evaluate how close the predicted difficulty score is to the ground-truth score.
 
@@ -99,7 +99,7 @@ The web app loads the trained models and performs real-time inference locally.
 
 ---
 
-Link to a 2–3 minute demo video:  <>
+Link to a 2–3 minute demo video:  <https://drive.google.com/file/d/1_ljvngJqLLnBiaBH8PS8_7xHelXp6FxU/view?usp=share_link>
 
 
 ---
